@@ -1,0 +1,21 @@
+.header__unlogin {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #A9A9A9;
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .header__unlogin {
+        font-size: 18px;
+    }
+}
+
+.header__unlogin:hover {
+    opacity: 0.8;
+}

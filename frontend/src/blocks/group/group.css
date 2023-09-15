@@ -1,0 +1,31 @@
+.group {
+  margin: 0 19px 0;
+  padding: 0;
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  list-style: none;
+}
+
+@media screen and (min-width: 619px) {
+  .group {
+    margin: 0 auto 0;
+    max-width: 581px;
+    column-gap: 17px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .group {
+    max-width: 880px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .group {
+    margin: 0 200px 0;
+  }
+}

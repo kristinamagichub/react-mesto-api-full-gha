@@ -1,0 +1,11 @@
+ .group__description {
+   margin: 0;
+   padding: 25px 20px 26px 21px;
+   height: 79px;
+   box-sizing: border-box;
+   border-radius: 0 0 10px 10px;
+   display: flex;
+   justify-content: space-between;
+   background-color: #FFFF;
+   color: #000;
+ }

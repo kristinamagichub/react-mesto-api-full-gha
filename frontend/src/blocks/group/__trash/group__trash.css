@@ -1,0 +1,19 @@
+.group__trash {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 18px;
+  height: 19px;
+  background-image: url(../../../images/element-vector-trash.svg);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: opacity 1s linear;
+  z-index: 1;
+}
+
+.group__trash:hover {
+  opacity: 0.6;
+}

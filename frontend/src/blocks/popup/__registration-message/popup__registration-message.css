@@ -1,0 +1,16 @@
+.popup__registration-message {
+    margin: 0;
+    position: relative;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+
+}
+
+@media screen and (min-width: 1280px) {
+    .popup__registration-message {
+        font-size: 24px;
+
+    }
+}

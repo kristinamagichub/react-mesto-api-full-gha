@@ -1,0 +1,16 @@
+.page__login {
+
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    max-width: 359px;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 1280px) {
+    .page__login {
+        padding-top: 60px;
+    }
+}

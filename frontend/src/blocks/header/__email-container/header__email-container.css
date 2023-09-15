@@ -1,0 +1,29 @@
+.header__email-container {
+
+    padding-top: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(84, 84, 84, .7);
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    transition: height .1s linear;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+}
+
+
+@media screen and (min-width: 768px) {
+    .header__email-container {
+        border: 0;
+        padding-top: 6px;
+        height: 165px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,6 @@
+.popup__registration-sign {
+    margin: 0 auto 32px;
+    background-image: url(../../../images/successfulyCircit.svg);
+    width: 120px;
+    height: 120px;
+}

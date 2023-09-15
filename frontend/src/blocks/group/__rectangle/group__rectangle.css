@@ -1,0 +1,4 @@
+.group__rectangle {
+  display: grid;
+  position: relative;
+}

@@ -1,0 +1,27 @@
+.header__button {
+
+    margin: 35px 30px 0 0;
+    padding: 0;
+    border: none;
+    display: block;
+    background-image: url(../../../images/3lines-humburger.svg);
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 20px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .header__button {
+        display: none;
+    }
+}
+
+
+
+.header__button:hover {
+    opacity: 0.8;
+}

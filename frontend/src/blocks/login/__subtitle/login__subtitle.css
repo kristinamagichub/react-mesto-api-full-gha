@@ -1,0 +1,18 @@
+.login__subtitle {
+
+    margin: 20px auto 50px;
+    padding: 0 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .login__subtitle {
+        padding-bottom: 40px;
+    }
+}

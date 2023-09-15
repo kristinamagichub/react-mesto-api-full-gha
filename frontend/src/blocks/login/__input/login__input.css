@@ -1,0 +1,25 @@
+.login__input {
+
+    margin: 0 42px;
+    padding-bottom: 10px;
+    border: none;
+    outline: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    border-bottom: 2px solid #CCC;
+    width: 260px;
+    color: #CCC;
+    background-color: black;
+}
+
+.login__input:first-child {
+    margin-top: 0;
+}
+
+@media screen and (min-width: 760px) {
+    .login__input {
+        margin: 0;
+        width: 358px;
+    }
+}

@@ -1,0 +1,19 @@
+.login__subtitle-link {
+
+    margin: auto 0;
+    padding-bottom: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .login__subtitle-link {
+        padding-bottom: 40px;
+    }
+}
