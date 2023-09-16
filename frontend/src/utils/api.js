@@ -106,7 +106,7 @@ class Api {
 
 // экземпляр класса Api
 const api = new Api({
-  baseUrl: 'http://localhost:3000',
+  baseUrl: 'http://api.place.nomoredomainsrocks.ru',
 });
 
 export default api;
