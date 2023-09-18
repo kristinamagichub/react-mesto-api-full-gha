@@ -1,9 +1,9 @@
 [![Tests](../../actions/workflows/tests-13-sprint.yml/badge.svg)](../../actions/workflows/tests-13-sprint.yml) [![Tests](../../actions/workflows/tests-14-sprint.yml/badge.svg)](../../actions/workflows/tests-14-sprint.yml)
 # Проект Mesto фронтенд + бэкенд
 
-IP  158.160.81.108
-Frontend  https://place.nomoredomainsrocks.ru
-Backend  https://api.place.nomoredomainsrocks.ru
+IP 158.160.81.108
+Frontend https://place.nomoredomainsrocks.ru
+Backend https://api.place.nomoredomainsrocks.ru
 
 ## Директории
 
