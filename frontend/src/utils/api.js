@@ -1,5 +1,6 @@
-//класс для работы с сервером
+const { NODE_ENV } = process.env;
 
+//класс для работы с сервером
 class Api {
   constructor(options) {
     this._url = options.baseUrl;
@@ -106,7 +107,7 @@ class Api {
 
 // экземпляр класса Api
 const api = new Api({
-  baseUrl: 'http://api.place.nomoredomainsrocks.ru',
+  baseUrl: NODE_ENV === 'production' ? '//api.place.nomoredomainsrocks.ru' : '//localhost:3000',
 });
 
 export default api;

@@ -1,4 +1,6 @@
-const baseUrl = 'http://api.place.nomoredomainsrocks.ru'
+const { NODE_ENV } = process.env;
+
+const baseUrl = NODE_ENV === 'production' ? '//api.place.nomoredomainsrocks.ru' : '//localhost:3000';
 
 function getResponseData(res) {
     return res.ok ? res.json() : Promise.reject(`${res.status} ${res.statusText}`)
@@ -33,7 +35,6 @@ export function authorization(password, email) {
 }
 
 export function getUserData(token) {
-    console.log('token: ', token)
     return fetch(`${baseUrl}/users/me`, {
         method: 'GET',
         headers: {
