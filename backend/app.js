@@ -39,6 +39,13 @@ app.use(requestLogger); // подключаем логгер запросов
 
 app.use(limiter);
 
+//! DELETE after review
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
+
 app.use('/signin', require('./routes/signin'));
 app.use('/signup', require('./routes/signup'));
 
